@@ -13,7 +13,7 @@ theme = []
 
 for i in range(0, 3):    
     thème = input('Entrer le thème : ')
-    print(f'Thème saisi : {thème}')
+    print(f'Thème saisi : {}')
     print('\nSuccessful entry\n')
 
 """

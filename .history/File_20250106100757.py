@@ -13,17 +13,16 @@ theme = []
 
 for i in range(0, 3):    
     thème = input('Entrer le thème : ')
-    print(f'Thème saisi : {thème}')
-    print('\nSuccessful entry\n')
+    if keyboard.is_pressed('enter'):
+        print(thème)
+        try:
+            if keyboard.is_pressed('space'):
+                t
+        theme.append(thème)
+        
+        print('\nSuccessful entry\n')
 
 """
-if keyboard.is_pressed('enter'):
-        print(f"Thème saisi : {thème}")
-        if keyboard.is_pressed('backspace'):
-            thème = input('Corriger le thème')
-    print(theme)
-
-
 theme = "Annonce la gloire du Seigneur"
 dtb_jours = {}
 
