@@ -8,10 +8,8 @@ import keyboard
 theme = []
 
 for i in range(0, 3):    
-    thème = input('Entrer le thème : ')
-    if keyboard.is_pressed('Enter'):
-        theme.append(thème)
-        print('\nSuccessful entry\n')
+    input('Entrer le thème : '))
+    print('\nSuccessful entry\n')
 
 """
 theme = "Annonce la gloire du Seigneur"

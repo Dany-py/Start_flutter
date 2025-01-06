@@ -9,9 +9,9 @@ theme = []
 
 for i in range(0, 3):    
     thème = input('Entrer le thème : ')
-    if keyboard.is_pressed('Enter'):
-        theme.append(thème)
-        print('\nSuccessful entry\n')
+    if keyboard.is_pressed('entry'):
+        
+    print('\nSuccessful entry\n')
 
 """
 theme = "Annonce la gloire du Seigneur"

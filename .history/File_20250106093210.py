@@ -9,7 +9,7 @@ theme = []
 
 for i in range(0, 3):    
     thème = input('Entrer le thème : ')
-    if keyboard.is_pressed('Enter'):
+    if keyboard.is_pressed('entry'):
         theme.append(thème)
         print('\nSuccessful entry\n')
 

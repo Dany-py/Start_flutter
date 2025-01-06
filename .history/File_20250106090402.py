@@ -2,16 +2,9 @@
 
 import calendar
 import datetime
-import keyboard
 
 
-theme = []
-
-for i in range(0, 3):    
-    thème = input('Entrer le thème : ')
-    if keyboard.is_pressed('Enter'):
-        theme.append(thème)
-        print('\nSuccessful entry\n')
+theme = 
 
 """
 theme = "Annonce la gloire du Seigneur"
